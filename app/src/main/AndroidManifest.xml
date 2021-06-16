@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.notes.alinfo">
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mansion"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".dailyroutine.add_routine"></activity>
+        <activity android:name=".dailyroutine.see_routine" />
+        <activity android:name=".Important_notes.Show_notes" />
+
+        <activity android:name=".given.see_given" />
+        <activity android:name=".timetable.Show_timetable" />
+        <activity android:name=".given.given" />
+        <activity android:name=".taken.taken" />
+        <activity android:name=".option_transactions" />
+        <activity android:name=".taken.see_transactions" />
+        <activity android:name=".timetable.see_studies" />
+        <activity android:name=".timetable.add_studies" />
+
+        <activity android:name=".Important_notes.add_notes" />
+        <activity android:name=".Important_notes.see_notes" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2474376873043059~8778455877" />
+    </application>
+
+</manifest>

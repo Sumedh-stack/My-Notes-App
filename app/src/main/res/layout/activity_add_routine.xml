@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dailyroutine.add_routine">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/add_btn3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#1E88E5"
+                    android:gravity="center"
+                    android:text="@string/time_n_you_can_edit"
+                    android:textColor="#000000"
+                    android:textSize="28sp" />
+
+                <TextView
+                    android:id="@+id/work"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#1E88E5"
+                    android:gravity="center"
+                    android:text="@string/work"
+                    android:textColor="#000000"
+                    android:textSize="28sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/day"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:padding="9dp"
+                    android:hint="@string/day"
+                    android:textColor="#000000"
+                    android:textColorHint="#A89A9A"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/date"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:hint="@string/todaysdate"
+                    android:padding="9dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#A89A9A"
+                    android:textSize="18sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/Time1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:hint="7.00am-8.00am"
+                    android:padding="9dp"
+                    android:text="7.00am-8.00am"
+                    android:textColor="#000000"
+                    android:textColorHint="#A89A9A"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/work1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:hint="@string/write_your_work"
+                    android:padding="9dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#A89A9A"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/Time2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:hint="7.00am-8.00am"
+                    android:padding="9dp"
+                    android:text="8.00am-9.00am"
+                    android:textColor="#000000"
+                    android:textColorHint="#A89A9A"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/work2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:hint="@string/write_your_work"
+                    android:padding="9dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#A89A9A"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/Time3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:hint="9.00am-10.00am"
+                    android:padding="9dp"
+                    android:text="9.00am-10.00am"
+                    android:textColor="#000000"
+                    android:textColorHint="#A89A9A"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/work3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:hint="@string/write_your_work"
+                    android:padding="9dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#A89A9A"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/Time4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:hint="10.00am-11.00am"
+                    android:padding="9dp"
+                    android:text="10.00am-11.00am"
+                    android:textColor="#000000"
+                    android:textColorHint="#A89A9A"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/work4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:hint="@string/write_your_work"
+                    android:padding="9dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#A89A9A"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/Time5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:hint="11.00am-12.00pm"
+                    android:padding="9dp"
+                    android:text="11.00am-12.00pm"
+                    android:textColor="#000000"
+                    android:textColorHint="#A89A9A"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/work5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:hint="@string/write_your_work"
+                    android:padding="9dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#A89A9A"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/Time6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:hint="12.00pm-1.00pm"
+                    android:padding="9dp"
+                    android:text="12.00pm-1.00pm"
+                    android:textColor="#000000"
+                    android:textColorHint="#A89A9A"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/work6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:hint="@string/write_your_work"
+                    android:padding="9dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#A89A9A"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/Time7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:hint="1.00pm-2.00pm"
+                    android:padding="9dp"
+                    android:text="1.00pm-2.00pm"
+                    android:textColor="#000000"
+                    android:textColorHint="#A89A9A"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/work7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:hint="@string/write_your_work"
+                    android:padding="9dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#A89A9A"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/Time8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:hint="2.00pm-3.00pm"
+                    android:padding="9dp"
+                    android:text="2.00pm-3.00pm"
+                    android:textColor="#000000"
+                    android:textColorHint="#A89A9A"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/work8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:hint="@string/write_your_work"
+                    android:padding="9dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#A89A9A"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/Time9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:hint="4.00pm-6.00pm"
+                    android:padding="9dp"
+                    android:text="3.00pm-4.00pm"
+                    android:textColor="#000000"
+                    android:textColorHint="#A89A9A"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/work9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:hint="@string/write_your_work"
+                    android:padding="9dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#A89A9A"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/Time10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:hint="6.00pm-8.00pm"
+                    android:padding="9dp"
+                    android:text="4.00pm-6.00pm"
+                    android:textColor="#000000"
+                    android:textColorHint="#A89A9A"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/work10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:hint="@string/write_your_work"
+                    android:padding="9dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#A89A9A"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/Time11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:hint="6.00pm-8.00pm"
+                    android:padding="9dp"
+                    android:text="6.00pm-8.00pm"
+                    android:textColor="#000000"
+                    android:textColorHint="#A89A9A"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/work11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:hint="@string/write_your_work"
+                    android:padding="9dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#A89A9A"
+                    android:textSize="18sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/Time12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:hint="8.00pm-9.00pm"
+                    android:padding="9dp"
+                    android:text="8.00pm-9.00pm"
+                    android:textColor="#000000"
+                    android:textColorHint="#A89A9A"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/work12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:hint="@string/write_your_work"
+                    android:padding="9dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#A89A9A"
+                    android:textSize="18sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/Time13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:hint="9.00pm-10.00pm"
+                    android:padding="9dp"
+                    android:text="9.00pm-10.00pm"
+                    android:textColor="#000000"
+                    android:textColorHint="#A89A9A"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/work13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:hint="@string/write_your_work"
+                    android:padding="9dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#A89A9A"
+                    android:textSize="18sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/Time14"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:hint="10.00pm-11.00pm"
+                    android:padding="9dp"
+                    android:text="10.00pm-11.00pm"
+                    android:textColor="#000000"
+                    android:textColorHint="#A89A9A"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/work14"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:hint="@string/write_your_work"
+                    android:padding="9dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#A89A9A"
+                    android:textSize="18sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/Time15"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:hint="11.00pm-12.00am"
+                    android:padding="9dp"
+                    android:text="11.00pm-12.00am"
+                    android:textColor="#000000"
+                    android:textColorHint="#A89A9A"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/work15"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:hint="@string/write_your_work"
+                    android:padding="9dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#A89A9A"
+                    android:textSize="18sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/Time16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:hint="12.00am-1.00am"
+                    android:padding="9dp"
+                    android:text="12.00am-1.00am"
+                    android:textColor="#000000"
+                    android:textColorHint="#A89A9A"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/work16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:hint="@string/write_your_work"
+                    android:padding="9dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#A89A9A"
+                    android:textSize="18sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/Time17"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:hint="1.00am-7.00am"
+                    android:padding="9dp"
+                    android:text="1.00am-7.00am"
+                    android:textColor="#000000"
+                    android:textColorHint="#A89A9A"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/work17"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:hint="@string/write_your_work"
+                    android:padding="9dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#A89A9A"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/add_btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1E88E5"
+        android:layout_alignParentBottom="true"
+        android:text="@string/add_timetable" />
+
+</RelativeLayout>

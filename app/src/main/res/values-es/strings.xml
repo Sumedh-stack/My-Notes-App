@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Notes</string>
+    <string name="money">
+transacciones de dinero</string>
+    <string name="notes">
+Notas importantes</string>
+    <string name="week">
+Rutina semanal</string>
+    <string name="daily">Rutina diaria</string>
+    <string name="misc">Miscellaneous</string>
+    <string name="sunday">domingo</string>
+    <string name="monday">lunes</string>
+    <string name="tuesday">martes</string>
+    <string name="wednesday">miércoles</string>
+    <string name="thursday">jueves</string>
+    <string name="friday">viernes</string>
+    <string name="saturday">sábado</string>
+    <string name="title">
+Título</string>
+    <string name="content">
+Descripción</string>
+    <string name="time">
+Hora</string>
+    <string name="work">Trabajo</string>
+    <string name="amount">
+Cantidad</string>
+    <string name="taken">
+Tomado de</string>
+    <string name="given">
+Dado a</string>
+    <string name="timegt">
+Hora de la transacción</string>
+    <string name="update">
+Actualizar</string>
+    <string name="share">Compartir</string>
+    <string name="feedback">
+Realimentación</string>
+    <string name="go_back">regresa</string>
+    <string name="notes_text">
+Todas sus notas se verán aquí, haga clic en el botón más</string>
+    <string name="transactions_text">
+Todas sus transacciones de dinero se verán aquí, haga clic en el botón más</string>
+    <string name="week_text">El horario de su semana se verá aquí, haga clic en el botón más</string>
+    <string name="daily_text">
+Su horario diario se verá aquí, haga clic en el botón más</string>
+    <string name="add_data">
+agregar datos</string>
+    <string name="add_timetable">Agregar horario</string>
+    <string name="add_ntransaction">
+Agregar\nTransacción</string>
+    <string name="name_of_person">Nombre de la persona</string>
+    <string name="enter_the_amount">
+introduce la cantidad</string>
+    <string name="date_time">
+fecha u hora</string>
+    <string name="write_your_work">
+escribe tu trabajo</string>
+    <string name="weeks">Semana</string>
+    <string name="given_loan">
+Préstamo dado $</string>
+    <string name="taken_loan">
+Préstamo Tomado $</string>
+    <string name="time_n_you_can_edit">Hora\n(
+puedes editar)</string>
+    <string name="todaysdate">Today\'s Date</string>
+    <string name="day">Today\'s day</string>
+</resources>

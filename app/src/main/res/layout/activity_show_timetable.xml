@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    tools:context=".timetable.Show_timetable">
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_marginBottom="25dp"-->
+<!--        android:background="#9BF630"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <View-->
+<!--            android:id="@+id/view8"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="2dp"-->
+<!--            android:background="#535252" />-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:padding="5dp">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="3dp"-->
+<!--                android:layout_marginRight="3dp"-->
+<!--                android:gravity="center"-->
+<!--                android:text="Monday"-->
+<!--                android:textColor="#2A0271"-->
+<!--                android:textSize="25sp"-->
+<!--                android:textStyle="bold|italic" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/work_monday4"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="3dp"-->
+<!--                android:layout_marginRight="3dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:background="#FF9800"-->
+<!--                android:padding="5dp"-->
+<!--                android:text="Learn Android"-->
+<!--                android:textColor="#000000"-->
+<!--                android:textSize="24sp" />-->
+<!--        </LinearLayout>-->
+
+
+<!--        <View-->
+<!--            android:id="@+id/view"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="4dp"-->
+<!--            android:background="#38293A" />-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:padding="5dp">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="3dp"-->
+<!--                android:layout_marginRight="3dp"-->
+<!--                android:gravity="center"-->
+<!--                android:inputType="textPersonName"-->
+<!--                android:text="Tuesday"-->
+<!--                android:textColor="#2A0271"-->
+<!--                android:textSize="25sp"-->
+<!--                android:textStyle="bold|italic" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/work_tuesday4"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="3dp"-->
+<!--                android:layout_marginRight="3dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:background="#FF9800"-->
+<!--                android:padding="5dp"-->
+<!--                android:text="Learn Android"-->
+<!--                android:textColor="#000000"-->
+<!--                android:textSize="24sp" />-->
+<!--        </LinearLayout>-->
+
+
+<!--        <View-->
+<!--            android:id="@+id/view2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="4dp"-->
+<!--            android:background="#38293A" />-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:padding="5dp">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_marginLeft="3dp"-->
+<!--                android:layout_marginRight="3dp"-->
+<!--                android:gravity="center"-->
+<!--                android:inputType="textPersonName"-->
+<!--                android:text="Wednesday"-->
+<!--                android:textColor="#2A0271"-->
+<!--                android:textSize="25sp"-->
+<!--                android:textStyle="bold|italic" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/work_wednesday4"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="3dp"-->
+<!--                android:layout_marginRight="3dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:background="#FF9800"-->
+<!--                android:padding="5dp"-->
+<!--                android:text="Learn Android"-->
+<!--                android:textColor="#000000"-->
+<!--                android:textSize="24sp" />-->
+<!--        </LinearLayout>-->
+
+<!--        &lt;!&ndash;        <TextView&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:id="@+id/work_wednesday2"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:layout_weight="1"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:inputType="textPersonName"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:text="wed work"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:textColor="#020202"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:textSize="24sp" />&ndash;&gt;-->
+
+<!--        <View-->
+<!--            android:id="@+id/view3"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="4dp"-->
+<!--            android:background="#38293A" />-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:padding="5dp">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_marginLeft="3dp"-->
+<!--                android:layout_marginRight="3dp"-->
+<!--                android:gravity="center"-->
+<!--                android:inputType="textPersonName"-->
+<!--                android:text="Thursday"-->
+<!--                android:textColor="#2A0271"-->
+<!--                android:textSize="25sp"-->
+<!--                android:textStyle="bold|italic" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/work_thursday4"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="3dp"-->
+<!--                android:layout_marginRight="3dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:background="#FF9800"-->
+<!--                android:padding="5dp"-->
+<!--                android:text="Learn Android"-->
+<!--                android:textColor="#000000"-->
+<!--                android:textSize="24sp" />-->
+<!--        </LinearLayout>-->
+
+<!--        &lt;!&ndash;        <TextView&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:id="@+id/work_thursday2"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:layout_weight="1"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:inputType="textPersonName"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:text="thurs work"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:textColor="#020202"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:textSize="24sp" />&ndash;&gt;-->
+
+<!--        <View-->
+<!--            android:id="@+id/view4"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="4dp"-->
+<!--            android:background="#38293A" />-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:padding="5dp">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="75dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_marginLeft="3dp"-->
+<!--                android:layout_marginRight="3dp"-->
+<!--                android:gravity="center"-->
+<!--                android:inputType="textPersonName"-->
+<!--                android:text="Friday"-->
+<!--                android:textColor="#2A0271"-->
+<!--                android:textSize="25sp"-->
+<!--                android:textStyle="bold|italic" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/work_friday4"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="3dp"-->
+<!--                android:layout_marginRight="3dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:background="#FF9800"-->
+<!--                android:padding="5dp"-->
+<!--                android:text="Learn Android"-->
+<!--                android:textColor="#000000"-->
+<!--                android:textSize="24sp" />-->
+<!--        </LinearLayout>-->
+
+<!--        <View-->
+<!--            android:id="@+id/view5"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="4dp"-->
+<!--            android:background="#38293A" />-->
+
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:padding="5dp">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_marginLeft="3dp"-->
+<!--                android:layout_marginRight="3dp"-->
+<!--                android:gravity="center"-->
+<!--                android:inputType="textPersonName"-->
+<!--                android:text="Saturday"-->
+<!--                android:textColor="#2A0271"-->
+<!--                android:textSize="25sp"-->
+<!--                android:textStyle="bold|italic" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/work_saturday4"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="3dp"-->
+<!--                android:layout_marginRight="3dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:background="#FF9800"-->
+<!--                android:padding="5dp"-->
+<!--                android:text="Learn Android"-->
+<!--                android:textColor="#000000"-->
+<!--                android:textSize="24sp" />-->
+<!--        </LinearLayout>-->
+
+<!--        <View-->
+<!--            android:id="@+id/view6"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="4dp"-->
+<!--            android:background="#38293A" />-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:padding="5dp">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_marginLeft="3dp"-->
+<!--                android:layout_marginRight="3dp"-->
+<!--                android:gravity="center"-->
+<!--                android:text="Sunday"-->
+<!--                android:textColor="#2A0271"-->
+<!--                android:textSize="25sp"-->
+<!--                android:textStyle="bold|italic" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/work_sunday4"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="3dp"-->
+<!--                android:layout_marginRight="3dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:background="#FF9800"-->
+<!--                android:padding="5dp"-->
+<!--                android:text="Learn Android"-->
+<!--                android:textColor="#000000"-->
+<!--                android:textSize="24sp" />-->
+<!--        </LinearLayout>-->
+
+<!--        <View-->
+<!--            android:id="@+id/view7"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="4dp"-->
+<!--            android:background="#FFFFFF" />-->
+<!--    </LinearLayout>-->
+
+    <ListView
+        android:id="@+id/list_ver"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>

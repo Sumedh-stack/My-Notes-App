@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Notes</string>
+    <string name="money">धन का लेन-देन</string>
+    <string name="notes">महत्वपूर्ण लेख</string>
+    <string name="week">साप्ताहिक दिनचर्या</string>
+    <string name="daily">दिनचर्या</string>
+    <string name="misc">Miscellaneous</string>
+    <string name="sunday">रविवार</string>
+    <string name="monday">सोमवार</string>
+    <string name="tuesday">मंगलवार</string>
+    <string name="wednesday">बुधवार</string>
+    <string name="thursday">गुरुवार</string>
+    <string name="friday">शुक्रवार</string>
+    <string name="saturday">शनिवार</string>
+    <string name="title">
+शीर्षक</string>
+    <string name="content">
+विवरण</string>
+    <string name="time">समय</string>
+    <string name="work">
+काम</string>
+    <string name="amount">रकम</string>
+    <string name="taken">
+        से लिया गया</string>
+    <string name="given">
+को दिया</string>
+    <string name="timegt">
+        लेन-देन का समय</string>
+    <string name="update">अपडेट करें</string>
+    <string name="share">
+शेयर</string>
+    <string name="feedback">
+प्रतिपुष्टि</string>
+    <string name="go_back">
+        वापस जाओ </string>
+    <string name="notes_text">
+आपके सभी नोट यहां दिखाई देंगे प्लस बटन पर क्लिक करें</string>
+    <string name="transactions_text">
+आपके सभी पैसे के लेन-देन यहां दिखाई देंगे, प्लस बटन पर क्लिक करें</string>
+    <string name="week_text">
+आपका वीक टाइमटेबल यहां दिखाई देगा प्लस बटन पर क्लिक करें</string>
+    <string name="daily_text">
+आपका दैनिक शेड्यूल यहां दिखाई देगा प्लस बटन पर क्लिक करें</string>
+    <string name="add_data">
+डेटा जोड़ें</string>
+    <string name="add_timetable">समय सारिणी जोड़ें</string>
+    <string name="add_ntransaction">लेन-देन जोड़ें</string>
+    <string name="name_of_person">
+व्यक्ति का नाम</string>
+    <string name="enter_the_amount">राशि दर्ज करें</string>
+    <string name="date_time">
+तारीख या समय</string>
+    <string name="write_your_work">अपना काम लिखो</string>
+    <string name="weeks">सप्ताह</string>
+    <string name="given_loan">
+लोन दिया $</string>
+    <string name="taken_loan">
+लोन लिया $</string>
+    <string name="time_n_you_can_edit">समय\n(आप बदल सकते हैं)</string>
+    <string name="todaysdate">Today\'s Date</string>
+    <string name="day">Today\'s day</string>
+</resources>

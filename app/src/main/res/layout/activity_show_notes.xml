@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Important_notes.Show_notes">
+
+    <Button
+        android:id="@+id/back_go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonforoptions"
+        android:text="@string/update"
+        android:textColor="#FFFFFF" />
+
+    <ImageButton
+        android:id="@+id/share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/ic_baseline_share_24"
+        tools:ignore="VectorDrawableCompat"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="5dp" />
+
+    <ImageButton
+        android:id="@+id/delete_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/ic_baseline_delete_24"
+        android:layout_toLeftOf="@+id/share"
+        tools:ignore="VectorDrawableCompat"
+        android:layout_marginEnd="5dp"
+        android:layout_toStartOf="@+id/share" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/back_go"
+        android:layout_below="@id/share">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <EditText
+                android:id="@+id/title_show"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="@string/title"
+                android:paddingLeft="5dp"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:paddingStart="5dp"
+                tools:ignore="RtlSymmetry" />
+
+            <EditText
+                android:id="@+id/desc_show"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="@string/content"
+                android:padding="7dp"
+                android:textColor="#000000"
+                android:textSize="19sp"
+                tools:ignore="InefficientWeight" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

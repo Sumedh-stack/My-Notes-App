@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C4CCFF"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/v"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/date_adapt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/back_work_daily"
+            android:ems="10"
+            android:hint="date"
+            android:inputType="textPersonName"
+            android:padding="5dp"
+            android:textColorHint="#474242"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/day_Adap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/back_work_daily"
+            android:ems="10"
+            android:hint="day"
+            android:inputType="textPersonName"
+            android:padding="5dp"
+            android:textColorHint="#474242"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/g"
+        android:layout_below="@id/v">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <EditText
+                android:id="@+id/Time1"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="7.00am-8.00am"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#393737"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/work1"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="#FFFFFF"
+                android:gravity="top"
+                android:hint="@string/write_your_work"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#817878"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/Time2"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="8.00am-9.00am"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#393737"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/work2"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="#FFFFFF"
+                android:gravity="top"
+                android:hint="@string/write_your_work"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#817878"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/Time3"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="9.00am-10.00am"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#393737"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/work3"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="#FFFFFF"
+                android:gravity="top"
+                android:hint="@string/write_your_work"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#817878"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/Time4"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="10.00am-11.00am"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#393737"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/work4"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="#FFFFFF"
+                android:gravity="top"
+                android:hint="@string/write_your_work"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#817878"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/Time5"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="11.00am-12.00pm"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#393737"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/work5"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="#FFFFFF"
+                android:gravity="top"
+                android:hint="@string/write_your_work"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#817878"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/Time6"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="12.00pm-1.00pm"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#393737"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/work6"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="#FFFFFF"
+                android:gravity="top"
+                android:hint="@string/write_your_work"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#817878"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/Time7"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="1.00pm-2.00pm"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#393737"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/work7"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="#FFFFFF"
+                android:gravity="top"
+                android:hint="@string/write_your_work"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#817878"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/Time8"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="2.00pm-3.00pm"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#393737"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/work8"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="#FFFFFF"
+                android:gravity="top"
+                android:hint="@string/write_your_work"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#817878"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/Time9"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="3.00pm-4.00pm"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#393737"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/work9"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="#FFFFFF"
+                android:gravity="top"
+                android:hint="@string/write_your_work"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#817878"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/Time10"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="4.00pm-6.00pm"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#393737"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/work10"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="#FFFFFF"
+                android:gravity="top"
+                android:hint="@string/write_your_work"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#817878"
+                android:textSize="20sp" />
+            <EditText
+                android:id="@+id/Time11"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="6.00pm-8.00pm"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#393737"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/work11"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="#FFFFFF"
+                android:gravity="top"
+                android:hint="@string/write_your_work"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#817878"
+                android:textSize="20sp" />
+            <EditText
+                android:id="@+id/Time12"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="8.00pm-9.00pm"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#393737"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/work12"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="#FFFFFF"
+                android:gravity="top"
+                android:hint="@string/write_your_work"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#817878"
+                android:textSize="20sp" />
+            <EditText
+                android:id="@+id/Time13"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="9.00pm-10.00pm"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#393737"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/work13"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="#FFFFFF"
+                android:gravity="top"
+                android:hint="@string/write_your_work"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#817878"
+                android:textSize="20sp" />
+            <EditText
+                android:id="@+id/Time14"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="10.00pm-11.00pm"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#393737"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/work14"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="#FFFFFF"
+                android:gravity="top"
+                android:hint="@string/write_your_work"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#817878"
+                android:textSize="20sp" />
+            <EditText
+                android:id="@+id/Time15"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="11.00pm-12.00am"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#393737"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/work15"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="#FFFFFF"
+                android:gravity="top"
+                android:hint="@string/write_your_work"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#817878"
+                android:textSize="20sp" />
+            <EditText
+                android:id="@+id/Time16"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="12.00am-1.00am"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#393737"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/work16"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="#FFFFFF"
+                android:gravity="top"
+                android:hint="@string/write_your_work"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#817878"
+                android:textSize="20sp" />
+            <EditText
+                android:id="@+id/Time17"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="1.00am-7.00am"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#393737"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/work17"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="#FFFFFF"
+                android:gravity="top"
+                android:hint="write your work"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#817878"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/g"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/add_upd3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonforoptions"
+            android:text="@string/update"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</RelativeLayout>

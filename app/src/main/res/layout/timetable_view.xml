@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4900CC">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="25dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="2dp"
+            android:background="#40AAFF"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/monday"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/work_monday5"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:background="#000000"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Learn Android"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="2dp"
+            android:background="#40AAFF"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/tuesday"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/work_tuesday5"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:background="#000000"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Learn Android"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="2dp"
+            android:background="#40AAFF"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/wednesday"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/work_wednesday5"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:background="#000000"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Learn Android"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <!--        <TextView-->
+        <!--            android:id="@+id/work_wednesday2"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_weight="1"-->
+        <!--            android:inputType="textPersonName"-->
+        <!--            android:text="wed work"-->
+        <!--            android:textColor="#020202"-->
+        <!--            android:textSize="24sp" />-->
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="2dp"
+            android:background="#40AAFF"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/thursday"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/work_thursday5"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:background="#000000"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Learn Android"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <!--        <TextView-->
+        <!--            android:id="@+id/work_thursday2"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_weight="1"-->
+        <!--            android:inputType="textPersonName"-->
+        <!--            android:text="thurs work"-->
+        <!--            android:textColor="#020202"-->
+        <!--            android:textSize="24sp" />-->
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="2dp"
+            android:background="#40AAFF"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/friday"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/work_friday5"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:background="#000000"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Learn Android"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="2dp"
+            android:background="#40AAFF"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/saturday"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+
+        <TextView
+            android:id="@+id/work_saturday5"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:background="#000000"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Learn Android"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="2dp"
+            android:background="#40AAFF"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/sunday"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/work_sunday5"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:background="#000000"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Learn Android"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</RelativeLayout>

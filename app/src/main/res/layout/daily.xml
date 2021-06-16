@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0088FF"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#0088FF"
+                    android:gravity="center_horizontal"
+                    android:text="@string/time"
+                    android:textColor="#000000"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/work"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#0088FF"
+                    android:gravity="center_horizontal"
+                    android:text="@string/work"
+                    android:textColor="#000000"
+                    android:textSize="30sp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#0088FF"
+                    android:visibility="invisible" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#DCF6F3"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/days"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_daily_time"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#878686"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/dates"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_work_daily"
+                    android:padding="5dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#878686"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#DCF6F3"
+                    android:visibility="invisible" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/Time1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_daily_time"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#878686"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/work1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_work_daily"
+                    android:padding="5dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#878686"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#DCF6F3" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/Time2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_daily_time"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#878686"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/work2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_work_daily"
+                    android:padding="5dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#878686"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#DCF6F3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/Time3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_daily_time"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#878686"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/work3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_work_daily"
+                    android:padding="5dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#878686"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#DCF6F3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/Time4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_daily_time"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#878686"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/work4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_work_daily"
+                    android:padding="5dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#878686"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#DCF6F3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/Time5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_daily_time"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#878686"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/work5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_work_daily"
+                    android:padding="5dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#878686"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#DCF6F3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/Time6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_daily_time"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#878686"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/work6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_work_daily"
+                    android:padding="5dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#878686"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#DCF6F3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/Time7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_daily_time"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#878686"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/work7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_work_daily"
+                    android:padding="5dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#878686"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#DCF6F3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/Time8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_daily_time"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#878686"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/work8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_work_daily"
+                    android:padding="5dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#878686"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#DCF6F3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/Time9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_daily_time"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#878686"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/work9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_work_daily"
+                    android:padding="5dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#878686"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#DCF6F3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/Time10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_daily_time"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#878686"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/work10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_work_daily"
+                    android:padding="5dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#878686"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#DCF6F3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/Time11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_daily_time"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#878686"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/work11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_work_daily"
+                    android:padding="5dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#878686"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#DCF6F3" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/Time12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_daily_time"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#878686"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/work12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_work_daily"
+                    android:padding="5dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#878686"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#DCF6F3" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/Time13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_daily_time"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#878686"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/work13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_work_daily"
+                    android:padding="5dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#878686"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#DCF6F3" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/Time14"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_daily_time"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#878686"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/work14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_work_daily"
+                    android:padding="5dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#878686"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#DCF6F3" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/Time15"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_daily_time"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#878686"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/work15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_work_daily"
+                    android:padding="5dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#878686"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#DCF6F3" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/Time16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_daily_time"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#878686"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/work16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_work_daily"
+                    android:padding="5dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#878686"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#DCF6F3" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/Time17"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_daily_time"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#878686"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/work17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_work_daily"
+                    android:padding="5dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#878686"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#DCF6F3" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <ImageButton
+                        android:id="@+id/share_btn4_dail"
+                        android:layout_width="30dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="10dp"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/ic_baseline_share_24" />
+
+                    <ImageButton
+                        android:id="@+id/update_btn4_dail"
+                        android:layout_width="30dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="10dp"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/ic_baseline_create_24" />
+
+                    <ImageButton
+                        android:id="@+id/delete_btn4_dail"
+                        android:layout_width="30dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="10dp"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/ic_baseline_delete_24" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/back_daily"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/back_daily"
+                        android:gravity="center"
+                        android:text="Day"
+                        android:textColor="#000000"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:id="@+id/id_daily"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/back_daily"
+                        android:gravity="center"
+                        android:text="1"
+                        android:textColor="#000000"
+                        android:textSize="22sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

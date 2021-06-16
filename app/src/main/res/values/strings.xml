@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">My Notes</string>
+    <string name="money">Money\nTransactions</string>
+    <string name="notes">Important\nNotes</string>
+    <string name="week">Weekly\nRoutine</string>
+    <string name="daily">Daily\nRoutine</string>
+    <string name="misc">Miscellaneous</string>
+    <string name="sunday">Sunday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="title">Title</string>
+    <string name="content">Note</string>
+    <string name="time">Time</string>
+    <string name="work">Work</string>
+    <string name="amount">Amount</string>
+    <string name="taken">Taken from</string>
+    <string name="given">Given to</string>
+    <string name="timegt">Time\nof Transaction</string>
+    <string name="update">Update</string>
+    <string name="share">Share</string>
+    <string name="feedback">Feedback</string>
+    <string name="go_back">Go Back</string>
+    <string name="notes_text">All your notes will be seen here click on the plus button</string>
+    <string name="transactions_text">All your Transactions will be seen here click on the plus button</string>
+    <string name="week_text">Your Week timetable will be seen here click on the plus button</string>
+    <string name="daily_text">Your Daily Schedule will be seen here click on the plus button</string>
+    <string name="add_data">Add Data</string>
+    <string name="add_timetable">Add timetable</string>
+    <string name="add_ntransaction">Add\nTransaction</string>
+    <string name="name_of_person">name of person</string>
+    <string name="enter_the_amount">enter the amount</string>
+    <string name="date_time">date/time</string>
+    <string name="write_your_work">write your work</string>
+    <string name="weeks">Week</string>
+    <string name="given_loan">Given Loan $</string>
+    <string name="taken_loan">Taken Loan $</string>
+    <string name="time_n_you_can_edit">Time\n(you can edit)</string>
+    <string name="todaysdate">Today\'s Date</string>
+    <string name="day">Today\'s day</string>
+
+
+</resources>
